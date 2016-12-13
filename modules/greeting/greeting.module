@@ -1,0 +1,7 @@
+<?php
+
+public function greeting_user_login($account) {
+  $response = new RedirectResponse("greeting");
+  $response->send();
+  return;
+}

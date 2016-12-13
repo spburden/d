@@ -1,0 +1,10 @@
+/* SAMPLE CSS FILE CONTENTS */
+body {
+  background-color: red;
+}
+h2 a {
+  color: yellow;
+}
+.region--coupon {
+  width: 50%;
+}

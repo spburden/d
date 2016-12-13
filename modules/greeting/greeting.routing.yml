@@ -1,0 +1,6 @@
+greeting:
+    path: /greeting
+    defaults:
+        _controller: Drupal\greeting\Controller\GreetingController::greeting
+    requirements:
+        _permission: 'access content'
